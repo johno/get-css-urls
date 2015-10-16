@@ -10,5 +10,5 @@ test(t => {
     ["url(foo.css)", "url(bar.css)"]
   )
 
-  t.ok(isBlank(getCssUrls('(foo.css) lksjhlksjhdf'))
+  t.ok(isBlank(getCssUrls('(foo.css) lksjhlksjhdf')))
 })
