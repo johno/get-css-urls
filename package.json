@@ -3,11 +3,8 @@
   "version": "0.0.1",
   "description": "Get CSS urls from a string.",
   "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
   "scripts": {
-    "test": "mocha test"
+    "test": "ava"
   },
   "repository": {
     "type": "git",
@@ -26,7 +23,8 @@
   },
   "homepage": "https://github.com/johnotander/get-css-urls",
   "devDependencies": {
-    "mocha": "^2.0.1"
+    "ava": "^0.2.0",
+    "is-blank": "^1.0.0"
   },
   "dependencies": {
     "css-url-regex": "0.0.1"
