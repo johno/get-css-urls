@@ -1,8 +1,11 @@
 {
   "name": "get-css-urls",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Get CSS urls from a string.",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "test": "ava"
   },
