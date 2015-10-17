@@ -30,6 +30,6 @@
     "is-blank": "^1.0.0"
   },
   "dependencies": {
-    "css-url-regex": "0.0.1"
+    "css-url-regex": "1.0.0"
   }
 }
